@@ -1,0 +1,295 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.top_header_1 {
+	height: 80px;
+	width: 960px;
+}
+.header_names_left_div {
+	float: left;
+	height: 60px;
+	width: 170px;
+	margin-bottom: 50px;
+	margin-top: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D2D1DC;
+}
+.header_ime_top_div {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 5px;
+	font-weight: normal;
+	line-height: 30px;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+.header_prezime_bott_div {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	color: #333;
+	text-decoration: none;
+	text-align: left;
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 30px;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+.header_menubar_div_okvir {
+	height: 60px;
+	width: 780px;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.header_menubar_button1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+	height: 40px;
+	width: 125px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	text-align: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D2D1DC;
+	text-decoration: none;
+	display: block;
+}
+.header_menubar_button1:hover {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	font-weight: normal;
+	background-color: #333;
+	color: #FFF;
+	height: 40px;
+	width: 125px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	text-align: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D2D1DC;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+}
+.header_menubar_button1:active {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	font-weight: normal;
+	background-color: #366;
+	color: #FFF;
+	height: 40px;
+	width: 125px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	text-align: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D2D1DC;
+	cursor: hand;
+	cursor: pointer;
+	text-decoration: none;
+}
+.header_mid {
+	padding-top: 40px;
+	background-color: #E7EBF3;
+	padding-bottom: 40px;
+	border-bottom: solid 1px #D2D1DC;
+
+}
+.header_unutarnji_okvir {
+	width: 960px;
+}
+.header_okvir_mida_slika {
+	height: 406px;
+	width: 956px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFF;
+	border: 1px solid #D1D1D1;
+	float: left;
+}
+.obavijesti_okvir_div {
+	height: auto;
+	width: 960px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2D1DC;
+}
+.obavijesti_left_div {
+	float: left;
+	height: auto;
+	width: 470px;
+}
+.obavijest1_naslov_table {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2D1DC;
+}
+.obavijest2_naslov_table {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2D1DC;
+	padding-left: 40px;
+}
+.obavijest1_opis_table {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+	text-align: justify;
+	letter-spacing: -1px;
+}
+input:focus
+{ 
+background-color:yellow;
+}
+.obavijest2_opis_table {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-align: justify;
+	letter-spacing: -1px;
+	padding-left: 40px;
+}
+.obavijesti_right_div {
+	float: right;
+	height: auto;
+	width: 470px;
+}
+.fakultet_mid_div1 {
+	height: auto;
+	width: 923px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	background-color: #FFF;
+	border: 1px solid #D2D1DC;
+	text-align: left;
+	letter-spacing: 1px;
+	font-family: "Courier New", Courier, monospace;
+	color: #666;
+	font-size: 16px;
+	text-decoration: none;
+}
+.fakultet_mid_naslov_posta {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	height: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #D2D1DC;
+	border-right-color: #D2D1DC;
+	border-left-color: #D2D1DC;
+	text-align: left;
+	background-color: #FFF;
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	float: left;
+}
+.kontakt_text_forma {
+max-height:200px; padding:15px; width:290px; max-width:290px;font-family: "Courier New", Courier, monospace;
+	color: #666;
+	font-size: 16px;"
+}
+.registar_mid_div1 {
+	height: auto;
+	width: 960px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: left;
+	letter-spacing: 1px;
+	font-family: "Courier New", Courier, monospace;
+	color: #666;
+	font-size: 16px;
+	text-decoration: none;
+}
+.registar_div_forma_ljevo1 {
+	background-color: #FFF;
+	float: left;
+	height: auto;
+	width: 320px;
+	border: 1px solid #D2D1DC;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.registar_mid_naslov_posta {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	height: auto;
+	text-align: left;
+	background-color: #FFF;
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	border: 1px solid #D2D1DC;
+	width: 925px;
+}
+.registar_registrirani_korisnici_div1 {
+	background-color: #FFF;
+	float: right;
+	width: 550px;
+	border: 1px solid #D2D1DC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}

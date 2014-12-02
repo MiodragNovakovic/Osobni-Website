@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Miodrag Novakovic</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--header-->
+<div align="center" style="border-bottom:solid 1px #D2D1DC">
+<div class="top_header_1">
+
+<div class="header_names_left_div">
+<div class="header_ime_top_div">Miodrag</div>
+<div class="header_prezime_bott_div">Novakovic</div>
+</div>
+<div class="header_menubar_div_okvir">
+<table width="99%" border="0">
+<tr>
+<td height="57">
+<a class="header_menubar_button1"  href="index.html">NASLOVNA</a>
+</td>
+<td><a class="header_menubar_button1"  href="fakultet.html">FAKULTET</a></td>
+    <td><a class="header_menubar_button1"  href="privatno.html">PRIVATNO</a></td>
+    <td><a class="header_menubar_button1"  href="zivotopis.html">ŽIVOTOPIS</a></td>
+    <td><a class="header_menubar_button1"  href="kontakt.html">KONTAKT</a></td>
+    <td><a class="header_menubar_button1"  href="registar.php">REGISTAR</a></td>
+  </tr>
+</table>
+
+</div>
+</div>
+</div>
+<!--header kraj-->
+
+
+<div align="center" class="header_mid">
+<div style="width:960px">
+  <span class="fakultet_mid_naslov_posta">Kontaktirajte me</span>
+  <div style="clear:both"></div>
+  </div>
+    <div class="fakultet_mid_div1">
+    <br /> 
+      <form id="form3" action="contact.php" method="post" name="myForm" onSubmit="return checkform(this), validateForm()" >
+                                                                        
+        <fieldset>
+        
+          <legend>Kontakt forma</legend>
+    
+    
+          <p class="first">
+          </p><table width="70%" border="0">
+  <tr>
+    <td width="44%" align="left" valign="top"><label for="name">Vaše Ime</label></td>
+    <td width="56%" align="left" valign="top"><input type="text" name="cf_name" id="name" size="30" /></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top"><label for="email">Vaš Email</label></td>
+    <td align="left" valign="top"> <input type="text" name="cf_email" id="email" size="30" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="left" valign="top"> <label style="margin-right:20px" for="code">Unesite kod - <span id="txtCaptchaDiv" style="color:#F00"></span>
+        <input type="hidden" id="txtCaptcha" /></label></td>
+    <td align="left" valign="top"><input type="text" name="txtInput" id="txtInput" size="30" /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+          <p></p>
+    <p>
+      
+     
+    </p>
+
+    <p>
+     </p>
+</fieldset>
+  <br />
+  
+  
+  
+  <fieldset class="last">
+ <table width="70%" border="0">
+  <tr>
+    <td width="44%" align="left" valign="top"><label for="message">Vaša poruka</label></td>
+    <td width="56%" align="left" valign="top"> <textarea class="kontakt_text_forma" name="cf_message" id="message" cols="30" rows="10"></textarea>
+</td>
+  </tr>
+</table>
+
+      
+     
+  </fieldset>
+  <p class="submit">
+    <button style="padding:8px" type="submit">Pošalji</button>
+  </p>
+</form>
+      
+    <script type="text/javascript">
+	function checkform(theform){
+		var why = "";
+		 
+		if(theform.txtInput.value == ""){
+			why += "- Siguronosni kod ne može ostati prazan.\n";
+		}
+		if(theform.txtInput.value != ""){
+			if(ValidCaptcha(theform.txtInput.value) == false){
+				why += "- Siguronosni kod nije ispravan.\n";
+			}
+		}
+		if(why != ""){
+			alert(why);
+			return false;
+		}
+	}
+ 
+
+   
+	var a = Math.ceil(Math.random() * 9)+ '';
+	var b = Math.ceil(Math.random() * 9)+ '';       
+	var c = Math.ceil(Math.random() * 9)+ '';  
+	var d = Math.ceil(Math.random() * 9)+ '';  
+	var e = Math.ceil(Math.random() * 9)+ '';  
+	  
+	var code = a + b + c + d + e;
+	document.getElementById("txtCaptcha").value = code;
+	document.getElementById("txtCaptchaDiv").innerHTML = code;	
+
+
+function ValidCaptcha(){
+	var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+	var str2 = removeSpaces(document.getElementById('txtInput').value);
+	if (str1 == str2){
+		return true;	
+	}else{
+		return false;
+	}
+}
+
+
+function removeSpaces(string){
+	return string.split(' ').join('');
+}
+
+function validateForm()
+{
+var x=document.forms["myForm"]["cf_name"].value;
+if (x==null || x=="")
+  {
+  alert("Niste unjeli ime");
+  return false;
+  }
+  var x=document.forms["myForm"]["cf_email"].value;
+if (x==null || x=="")
+  {
+  alert("Niste unjeli Email");
+  return false;
+  }
+  var x=document.forms["myForm"]["cf_message"].value;
+if (x==null || x=="")
+  {
+  alert("Niste unjeli Poruku");
+  return false;
+  }
+}
+
+</script>
+  </div>
+
+<div style="clear:both"></div>
+</div>
+<div style="clear:both"></div>
+</div>
+<div style="clear:both"></div>
+</div>
+
+<!--obavijesti kraj-->
+</body>
+</html>
